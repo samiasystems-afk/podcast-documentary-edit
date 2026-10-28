@@ -7,11 +7,12 @@ description: Prepare and finish long-form video podcasts with truthful cinematic
 
 Make the episode feel deliberately directed: a coherent opening story, typography belonging to the footage, music following the meaning, and an interview that rewards the opening promise. Judge the rendered sequence, not an effects list. Reference shows inform craft; retain the user's identity and authentic guest meaning.
 
-Keep English AI Cross Fields separate from Yousif's Arabic channel. Host spelling on screen: **Yussef Idris**. Current feedback from Yousif outranks older branding and duration choices. The Lena Komarova episode (https://youtu.be/81fguxFhLPA) is the worked example: see [references/lena-handoff.md](references/lena-handoff.md). **For pace, zooms, transitions and B-roll, read [references/fast-pace-seven-habits.md](references/fast-pace-seven-habits.md): Yousif's latest direction (23 Oct 2026) overrides the slower documentary pace used for Lena.**
+Keep English AI Cross Fields separate from Yousif's Arabic channel. Host spelling on screen: **Yussef Idris**. Current feedback from Yousif outranks older branding and duration choices. **For a new episode, start with [references/episode-runbook.md](references/episode-runbook.md)**: what to ask for, the pipeline, the Mac setup and the bugs already fixed. The latest worked example is Episode 15, McKay Salisbury ([references/mckay-handoff.md](references/mckay-handoff.md)); the earlier, slower Lena Komarova episode (https://youtu.be/81fguxFhLPA) is in [references/lena-handoff.md](references/lena-handoff.md). **For pace, zooms, transitions and B-roll, read [references/fast-pace-seven-habits.md](references/fast-pace-seven-habits.md): Yousif's latest direction (23 Oct 2026) overrides the slower documentary pace used for Lena.**
 
 ## Relevant guidance
 
-- **Current episode:** use the episode brief Yousif sends with the footage.
+- **Current episode:** use the episode brief Yousif sends with the footage. Ask for the separate Riverside tracks, the guest's exact name and role, the episode number and the footage location before starting.
+- **Pipeline and machine setup:** [references/episode-runbook.md](references/episode-runbook.md).
 - **Pace and B-roll:** [references/fast-pace-seven-habits.md](references/fast-pace-seven-habits.md).
 
 - **Edit/revise:** [references/editing-direction.md](references/editing-direction.md) covers paper edits, spatial type, transitions, score and acceptance.
@@ -44,4 +45,4 @@ Create a rendered opening preview before a lengthy full render. A preview does n
 
 Verify the **delivered file**: dimensions, frame count, duration, full decode, unexpected black/frozen spans, speech-preserving joins, loudness/peak headroom, sync across joins and near ending. Inspect detector flags visually. Review typography in motion and at phone size, masks, names, cutaways and ending. Audio meters cannot establish taste/intelligibility or whole-episode listening.
 
-Keep paper edit, cue sheet, source map, credits and QA with existing episode state. Distinguish technical checks, actual viewing/listening, missing verification and owner's publishing review. Identify one current master. Failed/older renders are not deliverables. Map feedback to time ranges; retain reusable preferences without making episode-specific choices universal.
+Titles use **"<hook> | <Guest Name> | Ep. N"**, plain text, always with the episode number. Keep paper edit, cue sheet, source map, credits and QA with existing episode state. Distinguish technical checks, actual viewing/listening, missing verification and owner's publishing review. Identify one current master. Failed/older renders are not deliverables. Map feedback to time ranges; retain reusable preferences without making episode-specific choices universal.

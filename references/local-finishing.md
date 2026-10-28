@@ -1,11 +1,12 @@
 # Demonstrated Mac finishing lessons
 
-Read only for local FFmpeg implementation. Discover current binaries/capabilities first.
+Read only for local FFmpeg implementation. Discover current binaries/capabilities first. From Episode 15 the build is Remotion plus ffmpeg on Yousif's Mac; its setup and gotchas are in [episode-runbook.md](episode-runbook.md). The notes below are from Lena.
 
 - Check which ffmpeg build you have: some fast Homebrew builds lack drawtext. Use a build with drawtext for typography segments. `h264_videotoolbox` needed actual Mac hardware access; respect current execution permissions.
 - Encoded section changes caused filter reinitialisation and reset zoompan clocks, dropping frames. Demonstrated correction: input `-reinit_filter 0`, video prefix `setpts=N/(24*TB)` before zoompan, output `-fps_mode cfr`. **24fps is source-specific.** Validate a boundary test and full final frame count. Do not blindly suppress reinitialisation if geometry genuinely changes.
 - Continuous audio rebuilt from mapped source pieces avoided mono/stereo gain differences. Lena's mono speech used unity stereo centre, tiny3ms anti-click fades and limiter latency compensation. Inspect boundary words, not just arithmetic.
 - Two-pass loudness normalization delivered−16.01LUFS stereo/−3.76dBTP. −16LUFS and <=−1.5dBTP are useful spoken-word starting targets, not universal dynamics requirements.
+- Transcription from Episode 15: `whisper-cli` base.en with `-dtw base.en -nfa -ojf`. Plain word offsets ran up to 0.6 s late.
 - Local Faster Whisper small.en used16kHz mono PCM through Python wave/numpy after compressed-media decoding hit an av compatibility issue. No footage upload or metered transcription needed.
 - Waveform correlation between aligned premix and decoded AAC establishes encode timing despite gain changes. It does not prove original lip sync or whole-mix subjective quality.
 - Sparse white titles on charcoal can trigger blackdetect; deliberate graphic holds trigger freezedetect. Inspect every flag before repair. Do not weaken thresholds to hide failures.

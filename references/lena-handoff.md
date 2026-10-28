@@ -24,4 +24,4 @@ Watch it: https://youtu.be/81fguxFhLPA. Yousif approved v6 and published it on A
 - Captions were an automatic draft and were never proofread or uploaded. Say so if that is still true.
 - Report honestly what you checked by watching and listening, and what you only measured.
 
-**Note:** for new episodes, Yousif wants a faster pace than Lena. See [fast-pace-seven-habits.md](fast-pace-seven-habits.md).
+**Note:** for new episodes, Yousif wants a faster pace than Lena. See [fast-pace-seven-habits.md](fast-pace-seven-habits.md), and [episode-runbook.md](episode-runbook.md) for the pipeline used on Episode 15.
